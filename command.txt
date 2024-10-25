@@ -1,0 +1,1 @@
+python3 -m torch.distributed.launch --nproc_per_node=2 --use_env src/train.py --train-dataset Railway --test-dataset Railway --data-cv 0 --input-size 512 --model my_resnet18_mtf_msf_deeplabv3 --mtf iade --msf 4 --warmup --loss bi -b 4 --test-only --save-imgs --pretrained /opt/data/private/zsf/C-3PO/output/my_resnet18_mtf_msf_deeplabv3_Railway_0/best/e2.pth
