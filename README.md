@@ -1,1 +1,1 @@
-# WIDE: A Synthetic Dataset For Railway Surveillance Anomaly Detection
+# WIDE: Make Railway Surveillance Anomaly Detection Right
