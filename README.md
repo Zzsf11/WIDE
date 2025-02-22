@@ -15,6 +15,15 @@ https://github.com/user-attachments/assets/6a61ad30-1218-409a-babd-905b8ab6367d
 
 Download the WIDE dataset on [here](https://www.google.com.hk/search?q=%E6%8F%92%E5%85%A5pdf+github+readme&oq=%E6%8F%92%E5%85%A5pdf+github+readme&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTEwMzAxajBqN6gCCLACAQ&sourceid=chrome&ie=UTF-8).
 
+```
+├── data
+│   ├── train
+│   │   ├── images
+│   │   ├── masks
+│   ├── val
+│   │   ├── images
+│   │   ├── masks
+```
 ## 🛠️Installation
 ```
 pip install -r requirements.txt
@@ -22,16 +31,5 @@ pip install -r requirements.txt
 
 ## 🚀Quick Start
 ```
-├── data
-│   ├── train
-│   │   ├── grefcoco
-|   |    
-│   │   ├── images
-|   |       ├── coco_2014
-|   |       ├── saiapr_tc-12
-│   │   ├── refclef
-|   |       ├── instances.json
-│   │   ├── refcoco
-|   |       ├── instances.json
-│   │       └── ...
+python3 -m torch.distributed.launch --nproc_per_node=2 --use_env src/train.py --train-dataset Railway --test-dataset Railway --data-cv 0 --input-size 1333 --model resnet50_mtf_msf_fasterrcnn --mtf iade --msf 4 --warmup --loss bi -b 2 --e 15
 ```
