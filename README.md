@@ -20,9 +20,9 @@ Download the WIDE dataset on [here](https://www.google.com.hk/search?q=%E6%8F%92
 │   ├── train
 │   │   ├── images
 │   │   ├── masks
-│   ├── val
-│   │   ├── images
-│   │   ├── masks
+│   └── PC59
+│       ├── images
+│       └── masks
 ```
 ## 🛠️Installation
 ```
