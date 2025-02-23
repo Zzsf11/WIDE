@@ -20,7 +20,7 @@ Download the WIDE dataset by sent mail to [23120325@bjtu.edu.cn](mailto:23120325
 │   ├── train
 │   │   ├── images
 │   │   ├── masks
-│   └── PC59
+│   └── val
 │       ├── images
 │       └── masks
 ```
