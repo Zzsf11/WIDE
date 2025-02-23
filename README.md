@@ -13,7 +13,7 @@ We introduce WIDE (RailWay surveillance vIdeo anomaly DEtection dataset), the fi
 
 https://github.com/user-attachments/assets/6a61ad30-1218-409a-babd-905b8ab6367d
 
-Download the WIDE dataset on [here](https://www.google.com.hk/search?q=%E6%8F%92%E5%85%A5pdf+github+readme&oq=%E6%8F%92%E5%85%A5pdf+github+readme&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTEwMzAxajBqN6gCCLACAQ&sourceid=chrome&ie=UTF-8).
+Download the WIDE dataset by sent mail to [23120325@bjtu.edu.cn](mailto:23120325@bjtu.edu.cn).
 
 ```
 ├── data
